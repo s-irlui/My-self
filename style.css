@@ -1,11 +1,11 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #0f0f0f;
@@ -13,7 +13,7 @@ body {
     line-height: 1.6;
 }
 
-/* HERO HEADER */
+
 header {
     height: 90vh;
     display: flex;
@@ -34,14 +34,14 @@ header {
     color: #aaa;
 }
 
-/* SECTIONS */
+
 section {
     max-width: 1000px;
     margin: 60px auto;
     padding: 20px;
 }
 
-/* HEADINGS */
+
 h2 {
     text-align: center;
     margin-bottom: 30px;
@@ -49,7 +49,7 @@ h2 {
     position: relative;
 }
 
-/* UNDERLINE EFFECT */
+
 h2::after {
     content: "";
     width: 50px;
@@ -59,12 +59,12 @@ h2::after {
     margin: 10px auto 0;
 }
 
-/* ABOUT SECTION */
+
 #about {
     text-align: center;
 }
 
-/* IMAGE GRID */
+
 #about-images {
     display: flex;
     justify-content: center;
@@ -81,33 +81,32 @@ h2::after {
     transition: transform 0.3s ease;
 }
 
-/* IMAGE HOVER */
+
 #about-images img:hover {
     transform: scale(1.05);
 }
 
-/* PARAGRAPHS */
+
 #about p {
     margin-bottom: 15px;
     color: #ccc;
 }
 
-/* PROJECTS */
+
 .project {
     background: #1a1a1a;
     padding: 20px;
     border-radius: 15px;
     margin-bottom: 20px;
-    transition: transform 0.3s ease, background 0.3s ease;
+    
 }
 
-/* HOVER EFFECT */
+
 .project:hover {
     transform: translateY(-5px);
     background: #222;
 }
 
-/* CONTACT */
 #contact {
     text-align: center;
 }
@@ -120,7 +119,7 @@ h2::after {
     margin: 15px 0;
 }
 
-/* LINKS */
+
 a {
     color: #00bcd4;
     text-decoration: none;
@@ -128,12 +127,19 @@ a {
 }
 
 a:hover {
-    color: #fff;
+    color: #00e5ff;
 }
 
-/* FOOTER (optional add later) */
 footer {
+    background: #0a0a0a;
+    color: #aaa;
     text-align: center;
-    padding: 20px;
-    color: #777;
+    padding: 25px 10px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    border-top: 1px solid #222;
+}
+
+footer p {
+    margin: 5px 0;
 }
