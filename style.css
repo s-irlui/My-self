@@ -1,0 +1,139 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f0f0f;
+    color: #eaeaea;
+    line-height: 1.6;
+}
+
+/* HERO HEADER */
+header {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, #0f0f0f, #1c1c1c);
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.hero-text p {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+/* SECTIONS */
+section {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+/* HEADINGS */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    position: relative;
+}
+
+/* UNDERLINE EFFECT */
+h2::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: #00bcd4;
+    display: block;
+    margin: 10px auto 0;
+}
+
+/* ABOUT SECTION */
+#about {
+    text-align: center;
+}
+
+/* IMAGE GRID */
+#about-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+#about-images img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+/* IMAGE HOVER */
+#about-images img:hover {
+    transform: scale(1.05);
+}
+
+/* PARAGRAPHS */
+#about p {
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+/* PROJECTS */
+.project {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.project:hover {
+    transform: translateY(-5px);
+    background: #222;
+}
+
+/* CONTACT */
+#contact {
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact li {
+    margin: 15px 0;
+}
+
+/* LINKS */
+a {
+    color: #00bcd4;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #fff;
+}
+
+/* FOOTER (optional add later) */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+}
